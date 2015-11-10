@@ -20,7 +20,7 @@ randForestTrain <- function(finMicro){
   #check if first column is a factor if not change it to factor
   if(!is.factor(finMicro[,1]))
   {
-    print("Convert first column to a factor")
+    print("First Column must be a factor with levels 0 and 1. \n Converting first column to a factor")
     finMicro[,1] <- factor(finMicro[,1],levels = mylevels)
   }
   
