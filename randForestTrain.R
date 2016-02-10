@@ -1,6 +1,6 @@
 randForestTrain <- function(finMicro){
 
-  #Finmicro is the dataframe that contains recurrence in the first column 
+  #Finmicro is the dataframe that contains class label in the first column 
   #load required packages
   
   for (package in c('caret', 'ROCR','dplyr','plyr','randomForest')) {
